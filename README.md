@@ -23,6 +23,17 @@ docker build --progress=plain .
 ```
 x64
 ```
+#6 [3/6] RUN echo "BUILDPLATFORM: linux/amd64"
+#6 CACHED
+
+#7 [4/6] RUN echo "TARGETPLATFORM: linux/amd64"
+#7 CACHED
+
+#8 [5/6] RUN echo "TARGETOS: linux"
+#8 CACHED
+
+#9 [6/6] RUN echo "TARGETARCH: amd64"
+#9 CACHED
 ```
 arm
 ```
