@@ -35,6 +35,24 @@ x64
 #9 [6/6] RUN echo "TARGETARCH: amd64"
 #9 CACHED
 ```
+Apple Silicon
+```
+#7 [3/6] RUN echo "BUILDPLATFORM: linux/arm64"
+#7 0.092 BUILDPLATFORM: linux/arm64
+#7 DONE 0.1s
+
+#8 [4/6] RUN echo "TARGETPLATFORM: linux/arm64"
+#8 0.123 TARGETPLATFORM: linux/arm64
+#8 DONE 0.1s
+
+#9 [5/6] RUN echo "TARGETOS: linux"
+#9 0.098 TARGETOS: linux
+#9 DONE 0.1s
+
+#10 [6/6] RUN echo "TARGETARCH: arm64"
+#10 0.115 TARGETARCH: arm64
+#10 DONE 0.1s
+```
 arm
 ```
 #6 [3/6] RUN echo "BUILDPLATFORM: linux/arm/v7"
